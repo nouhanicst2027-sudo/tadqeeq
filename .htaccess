@@ -1,0 +1,4 @@
+# إذا وُضع المشروع كاملاً داخل مجلد الويب، امنع الوصول إلى كل شيء خارج public
+RewriteEngine On
+RewriteRule ^(src|data|tools|vendor)(/|$) - [F,L]
+RewriteRule ^$ public/ [L]

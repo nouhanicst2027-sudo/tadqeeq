@@ -1,0 +1,16 @@
+# Dependencies (install with: composer install)
+/vendor/
+
+# Runtime data, large source files and user accounts
+/data/**
+!/data/*/
+!/data/**/.gitkeep
+
+# Archives
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

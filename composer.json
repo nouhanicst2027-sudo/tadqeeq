@@ -1,0 +1,13 @@
+{
+  "name": "tadqeeq/legislation-review",
+  "description": "نظام إدارة تدقيق التشريعات الأردنية",
+  "type": "project",
+  "require": {
+    "php": ">=8.1",
+    "phpoffice/phpspreadsheet": "^5.0"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
