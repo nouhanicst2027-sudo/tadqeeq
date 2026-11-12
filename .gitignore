@@ -6,9 +6,6 @@
 !/data/*/
 !/data/**/.gitkeep
 
-# Archives
-*.zip
-
 # OS / editor
 .DS_Store
 Thumbs.db
